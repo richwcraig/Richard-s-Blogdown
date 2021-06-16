@@ -1,13 +1,13 @@
 ---
-title: Project Proposal
+title: First Politics Project Proposal
 author: Richard Craig
-date: '2021-06-15'
+date: '2021-06-09'
 slug: project-proposal
 categories:
   - Proposal
 tags:
-  - Baseball
-  - Analytics
+  - Politics
+  - US Elections
 ---
 
 # Overview
