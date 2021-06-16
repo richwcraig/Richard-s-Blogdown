@@ -1,7 +1,13 @@
 ---
-title: "Project Proposal"
-author: "Richard Craig"
-output: html_document
+title: Project Proposal
+author: Richard Craig
+date: '2021-06-15'
+slug: project-proposal
+categories:
+  - Proposal
+tags:
+  - Baseball
+  - Analytics
 ---
 
 # Overview
