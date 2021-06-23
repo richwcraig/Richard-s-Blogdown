@@ -21,7 +21,11 @@ tags:
 # Proposal
   The specific question I am trying to answer is, can we automate the process of setting a batting order? This question will attempt to be answered using a high school varsity baseball team’s data from the 2021 season. By analyzing players’ batting performance and combining that with the factors that are valuable for each batting order position, I hope to determine what a player’s best batting slot is when compared to the other eight players in the lineup. 
   
+  <!--- are you going to have enough variation for this? Also, what outcome is determining batting order? Getting on base? Wins? ??? -->
+  
   The outcome variable for each player will be their best batting order position based on their characteristics as well as the other starting players best lineup positions. The features that will be included to model and determine the players batting slot will be the previous season’s, batting statistics. This will include metrics such an on-base percentage, slugging, runs batted in, batting average, batting position and pitches per plate appearance. The model will also utilize the diverse scholarship and research that has already been done on this topic.
+  
+  <!--- I want to see more specifics here. From your description, I'm not sure what method you will use to accomplish the desired outcome -->
   
   It will be incredibly interesting to see how these predictions compare to the decisions made by the coaches in the previous season. I would hope to find some decisions that differ. However, as the coaches of this team are well respected, if I, as someone who has never played a game of baseball in my life, could get results that are similar to their decisions I would be thrilled. I hope to also be able to look at the games where my model would choose the same lineup and those where it differs and analyzing the team’s outcome variables just as total RBIs and their win loss record.
 
