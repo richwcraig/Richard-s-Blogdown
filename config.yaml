@@ -1,43 +1,44 @@
-baseurl: /
-languageCode: en-us
-title: A Hugo website
-theme: hugo-lithium
-googleAnalytics: ''
-disqusShortname: ''
+baseurl: https://example.com
+title: Richard's Project Blog
+author: Richard Craig
+canonifyurls: yes
+languagecode: en
+theme: hugo-tanka
+enableEmoji: yes
+hasCJKLanguage: no
+pygmentsstyle: vs
+pygmentscodefences: yes
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
   - _cache$
   - \.knit\.md$
   - \.utf8\.md$
-permalinks:
-  post: /:year/:month/:day/:slug/
-menu:
-  main:
-    - name: About
-      url: /about/
-    - name: GitHub
-      url: https://github.com/rstudio/blogdown
-    - name: Twitter
-      url: https://twitter.com/rstudio
 params:
-  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
-  MathJaxVersion: 2.7.5
-  description: A website built through Hugo and blogdown.
-  favicon: favicon.ico
-  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
-  highlightjsLang:
+  faviconfile: images/favicon.png
+  highlightjs: yes
+  highlightjslanguages:
     - r
-    - yaml
-  highlightjsTheme: github
-  highlightjsVersion: 9.12.0
-  logo:
-    alt: Logo
-    height: 50
-    url: logo.png
-    width: 50
+    - python
+    - stan
+  progressively: no
+  sitename: Richard's Project Blog
+  uselatex: yes
 markup:
-  defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
       unsafe: yes
+menu:
+  primary:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+    - name: GitHub
+      url: https://github.com/richwcraig
+      weight: 3
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/richard-craig-a130a6176/
+      weight: 4
